@@ -5,7 +5,7 @@ define('SITEURL','http://localhost/website/');
 define('LOCALHOST','localhost');
 define('DB_USERNAME','root');
 define('DB_PASSWORD','');
-define("DB_DATABASE","online-order");
+define("DB_DATABASE","handscrafts-order");
 $conn= mysqli_connect(LOCALHOST,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
-$db_select=mysqli_select_db($conn,'online-order');
+$db_select=mysqli_select_db($conn,'handscrafts-order');
 ?>
